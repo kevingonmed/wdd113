@@ -1,7 +1,6 @@
+
 img{
-    width: 30%;
-    grid-column: 1/4;
-    grid-row: 1;
+    width: auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
