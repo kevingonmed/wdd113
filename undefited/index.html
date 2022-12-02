@@ -21,7 +21,40 @@
     <div id="promo_img">
         <img src="images/rsz_men_t.jpg" alt="promo">
     </div>
-    <main>
+    <!-- Button to open the modal login form -->
+<button onclick="document.getElementById('id01').style.display='block'">Login</button>
+
+<!-- The Modal -->
+<div id="id01" class="modal">
+  <span onclick="document.getElementById('id01').style.display='none'"
+class="close" title="Close Modal">&times;</span>
+
+  <!-- Modal Content -->
+  <form class="modal-content animate" action="/action_page.php">
+    <div class="imgcontainer">
+      <img src="images/profile.webp" alt="Avatar" class="avatar">
+    </div>
+
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+
+      <button type="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+</div>
+   <main>
         <img src="" alt="">
         <h4>Pourpose</h4>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc tempor commodo tortor, ut commodo elit. Suspendisse et cursus turpis, eget mattis nisi. Fusce sit amet pellentesque dui. Pellentesque neque nisi, tristique at dui nec, tincidunt posuere purus. Sed magna magna, vehicula eget ex et, auctor vestibulum ligula. Morbi sed sodales mauris. Aenean sagittis malesuada diam efficitur venenatis. Donec sed tempus mi. Proin condimentum congue velit, quis efficitur ligula tincidunt in. In semper nulla ac ante ullamcorper tincidunt.</p>
