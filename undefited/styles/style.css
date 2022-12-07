@@ -96,9 +96,7 @@ nav a:hover{
     to {transform: scale(1)}
   }
 main{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    padding-top: 5%;
+    padding-top: 1%;
     background-color: black;
     font-family: "Libre Baskerville";;
 }
@@ -107,11 +105,38 @@ main p{
     color: white;
     font-family: Oswald, Helvetica, sans-serif;;
 }
-main h4{
+main h1{
     grid-column: 2;
     color: white;
-    font-family: "Libre Baskerville";;
+    font-family: "Libre Baskerville";
+    font-size: 80px;
+    text-align: center;
 }
+
+#store{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr 1fr;
+    height: 1fr;
+}
+
+#store img{
+width: 95%
+}
+
+#store img:hover{
+filter: blur(0.5px);
+width: 95.1%;
+}
+
+#store p{
+    margin-left: 30%;
+}
+
+.store_one img{
+    margin-left: 2%;
+}
+
 footer{
     background-color: #B31112;
     padding-top: 5%;
